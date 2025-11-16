@@ -25,3 +25,33 @@
 ```c
 int a, b, c;
 float pi;
+```
+## 2.Python: Function Definition 
+```c
+def greet(name):
+    print("Hello", name)
+```
+## 3.C: If–Else Statement
+```c
+if (x > 0)
+{
+    printf("pos");
+}
+else
+{
+    printf("non-pos");
+}
+```
+## 4.HTML: Basic Tag
+```c
+<p>Hello World</p>
+```
+## 5.C++: For Loop
+```c
+for (int i = 0; i < 5; i++)
+{
+    cout << i;
+}
+```
+
+
