@@ -7,17 +7,13 @@
 ## main.py
 - Serves as the program’s entry point that ties components together: reads input (file/stdin), initializes the lexer, feeds tokens to the parser, and then triggers subsequent stages (interpretation, code generation, or pretty-printing). ​
 -Often handles CLI arguments, error reporting, and orchestrates the pipeline: source → tokens (lexer) → AST (parser) → execute/emit.​
-
-# 1.
-(C :Variable Declaration) 
+# 1.C :Variable Declaration 
 int a, b, c; 
 float pi;  
-# 2. 
-(Python :Function Definition)  
+# 2.Python :Function Definition  
 def greet(name):     
     print("Hello", name)  
-# 3.
-(C : If-else statement) 
+# 3.C : If-else statement 
 if (x > 0) 
 { 
 printf("pos");
@@ -26,11 +22,9 @@ else
 { 
 printf("non-pos"); 
 } 
-# 4.
-(HTML : Tag Declaration) 
-<p>Hello World</p>
-# 5.
-(C++ : For Loop) 
+# 4.HTML : Tag Declaration  
+<p>Hello World</p> 
+# 5.C++ : For Loop  
 for (int i = 0; i < 5; i++) 
 {     
    cout << i; 
